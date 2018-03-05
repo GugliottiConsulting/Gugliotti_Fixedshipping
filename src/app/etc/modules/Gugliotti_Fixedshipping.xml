@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Gugliotti_Fixedshipping>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gugliotti_Fixedshipping>
+    </modules>
+</config>

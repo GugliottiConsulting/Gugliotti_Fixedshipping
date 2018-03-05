@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Gugliotti_Fixedshipping>
+            <version>0.1.0</version>
+        </Gugliotti_Fixedshipping>
+    </modules>
+    <global>
+        <helpers>
+            <gugliotti_fixedshipping>
+                <class>Gugliotti_Fixedshipping_Helper</class>
+            </gugliotti_fixedshipping>
+        </helpers>
+        <models>
+            <gugliotti_fixedshipping>
+                <class>Gugliotti_Fixedshipping_Model</class>
+            </gugliotti_fixedshipping>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <gugliotti_fixedshipping>
+                <model>Gugliotti_Fixedshipping_Model_Carrier_Fixed</model>
+                <active>1</active>
+                <title>Gugliotti</title>
+            </gugliotti_fixedshipping>
+        </carriers>
+    </default>
+</config>
